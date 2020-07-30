@@ -1,0 +1,95 @@
+@font-face{
+    src: url('../font/arial.ttf');
+    font-family: arial;
+}
+body{
+    font-family: arial;
+}
+a {
+    color: inherit;
+    transition: .3s ease-in-out;
+}
+
+a:hover {
+    color: inherit;
+}
+.fc-black {
+    color: #5f6368;
+}
+.fc-blue{
+    color: #1a0dab;
+}
+.fc-lbl{
+    color: rgba(0,0,0, 0.54);
+}
+
+.fs-14{
+    font-size: 14px;
+}
+.fs-15{
+    font-size: 15px;
+}
+
+.mid-section {
+    min-height: 83vh;
+}
+
+.mid-section img {
+    max-height: 110px;
+}
+
+.nav-input-group-focus {
+    box-shadow: none;
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+    background: #FFFFFF;
+    border: none;
+}
+
+.search {
+    border: 1px solid #ddd;
+    border-radius: 30px;
+    height: 44px;
+}
+
+.search input.form-control {
+    border: none;
+    border-radius: 20px;
+}
+
+.search input.form-control:focus {
+    box-shadow: none;
+    border: none;
+}
+
+.search i {
+    font-size: 20px;
+    color: #ddd;
+}
+
+.search .input-group-append, .search .input-group-prepend {
+    padding-top: 12px;
+}
+
+.btn-search {
+    background: #f2f2f2 !important;
+    border: 1px soild #f2f2f2;
+    color: #5f6368;
+    transition: 0.3s ease-in-out;
+    font-family: arial;
+}
+
+.btn-search:hover {
+    border: 1px solid #000;
+}
+
+.btn-blue {
+    background: #1a0dab;
+    color: #fff;
+    font-size: 14px;
+}.btn-blue:hover{
+    color: #fff;
+}
+
+.bg-grey {
+    background: #f2f2f2;
+}
